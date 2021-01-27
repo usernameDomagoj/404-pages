@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+}
+
+canvas {
+  display: block;
+  opacity: 0.1;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 300px;
+  width: 100%;
+  position: absolute;
+  color: green;
+  z-index: 9999;
+}
+
+.error-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.error-actions {
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.error-actions .btn {
+  margin-right:10px;
+}
